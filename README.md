@@ -1,13 +1,6 @@
 # RoofGS: Roofline-Guided End-to-End Acceleration
 of 3D Gaussian Splatting
 
-[Alex Hanson](https://www.cs.umd.edu/~hanson/), [Allen Tu](https://tuallen.github.io), [Geng Lin](https://www.cs.umd.edu/people/geng), [Vasu Singla](https://vasusingla.github.io/), [Matthias Zwicker](https://www.cs.umd.edu/~zwicker/), [Tom Goldstein](https://www.cs.umd.edu/~tomg/)
-
-[arXiv](https://arxiv.org/abs/2412.00578) | [Website](https://speedysplat.github.io)
-
-<img src="assets/speedy_splat_cover.png" alt="Speedy Splat Cover" />
-
-This is the official code repository for the paper "Speedy-Splat: Fast 3D Gaussian Splatting with Sparse Pixels and Sparse Primitives". It is built from the [3D-GS](https://github.com/graphdeco-inria/gaussian-splatting) repository. If you make use of this code in your research, please consider citing this work in addition to ours.
 
 
 **Abstract:** *3D Gaussian Splatting (3D-GS) is a recent 3D scene reconstruction technique that enables real-time rendering of novel views by modeling scenes as parametric point clouds of differentiable 3D Gaussians.  However, its rendering speed and model size still present bottlenecks, especially in resource-constrained settings.  In this paper, we identify and address two key inefficiencies in 3D-GS, achieving substantial improvements in rendering speed, model size, and training time.  First, we optimize the rendering pipeline to precisely localize Gaussians in the scene, boosting rendering speed without altering visual fidelity.  Second, we introduce a novel pruning technique and integrate it into the training pipeline, significantly reducing model size and training time while further raising rendering speed.  Our Speedy-Splat approach combines these techniques to accelerate average rendering speed by a drastic 6.71x across scenes from the Mip-NeRF 360, Tanks \& Temples, and Deep Blending datasets  with 10.6x fewer primitives than 3D-GS.*
